@@ -180,7 +180,7 @@ nav ul {
 }
 
 .banner-tinder {
-    background: 
+    background-image: 
         url('assets/images/tinder-banner.png'),
         linear-gradient(135deg, #ff4458, #ff6b7a, #e91e63);
     background-size: cover;
@@ -189,7 +189,7 @@ nav ul {
 }
 
 .banner-ablo {
-    background: 
+    background-image: 
         url('assets/images/ablo-banner.png'),
         linear-gradient(135deg, #4ade80, #22c55e, #16a34a);
     background-size: cover;
@@ -198,7 +198,7 @@ nav ul {
 }
 
 .banner-linkuid {
-    background: 
+    background-image: 
         url('assets/images/linkuid-banner.png'),
         linear-gradient(135deg, #3b82f6, #60a5fa, #1d4ed8);
     background-size: cover;
@@ -207,7 +207,7 @@ nav ul {
 }
 
 .banner-past-roles {
-    background: 
+    background-image: 
         url('assets/images/past-roles-banner.png'),
         linear-gradient(135deg, #fbbf24, #f59e0b, #d97706);
     background-size: cover;
