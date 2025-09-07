@@ -180,19 +180,39 @@ nav ul {
 }
 
 .banner-tinder {
-    background: linear-gradient(135deg, #ff4458, #ff6b7a, #e91e63);
+    background: 
+        url('assets/images/tinder-banner.png'),
+        linear-gradient(135deg, #ff4458, #ff6b7a, #e91e63);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .banner-ablo {
-    background: linear-gradient(135deg, #4ade80, #22c55e, #16a34a);
+    background: 
+        url('assets/images/ablo-banner.png'),
+        linear-gradient(135deg, #4ade80, #22c55e, #16a34a);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .banner-linkuid {
-    background: linear-gradient(135deg, #3b82f6, #60a5fa, #1d4ed8);
+    background: 
+        url('assets/images/linkuid-banner.png'),
+        linear-gradient(135deg, #3b82f6, #60a5fa, #1d4ed8);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .banner-past-roles {
-    background: linear-gradient(135deg, #fbbf24, #f59e0b, #d97706);
+    background: 
+        url('assets/images/past-roles-banner.png'),
+        linear-gradient(135deg, #fbbf24, #f59e0b, #d97706);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 /* Sections */
