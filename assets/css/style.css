@@ -222,7 +222,7 @@ main nav .nav-link.active {
 
 .banner-tinder {
     background-image: 
-        url('assets/images/tinder-banner.png'),
+        url('../images/tinder-banner.png'),
         linear-gradient(135deg, #ff4458, #ff6b7a, #e91e63);
     background-size: cover;
     background-position: center;
@@ -231,7 +231,7 @@ main nav .nav-link.active {
 
 .banner-ablo {
     background-image: 
-        url('assets/images/ablo-banner.png'),
+        url('../images/ablo-banner.png'),
         linear-gradient(135deg, #4ade80, #22c55e, #16a34a);
     background-size: cover;
     background-position: center;
@@ -240,7 +240,7 @@ main nav .nav-link.active {
 
 .banner-linkuid {
     background-image: 
-        url('assets/images/linkuid-banner.png'),
+        url('../images/linkuid-banner.png'),
         linear-gradient(135deg, #3b82f6, #60a5fa, #1d4ed8);
     background-size: cover;
     background-position: center;
@@ -249,7 +249,7 @@ main nav .nav-link.active {
 
 .banner-past-roles {
     background-image: 
-        url('assets/images/past-roles-banner.png'),
+        url('../images/past-roles-banner.png'),
         linear-gradient(135deg, #fbbf24, #f59e0b, #d97706);
     background-size: cover;
     background-position: center;
