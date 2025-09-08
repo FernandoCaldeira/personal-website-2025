@@ -245,6 +245,21 @@ h1 {
     line-height: 1.2;
 }
 
+h2 {
+    font-size: 2rem; /* Increase from 1.8rem */
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 4px; /* Tighter spacing to job title */
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #1a1a1a;
+    line-height: 1.3;
+}
+
 .subtitle {
     font-size: 1.1rem;
     color: #666;
@@ -371,13 +386,27 @@ main nav .nav-link.active {
     background-repeat: no-repeat;
 }
 
-.banner-past-roles {
-    background-image: 
-        url('../images/past-roles-banner.png'),
+.banner-skills {
+    background: 
+        url('../images/skills-banner.png'),    
         linear-gradient(135deg, #fbbf24, #f59e0b, #d97706);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.banner-past-roles {
+    background-image: 
+        url('../images/past-roles-banner.png'),
+        linear-gradient(135deg, #8b5cf6, #a78bfa, #c084fc);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* If you have intro text in side projects */
+#side-projects .job-description {
+    color: #333; /* Ensure consistency */
 }
 
 /* Sections */
@@ -413,28 +442,13 @@ section {
     margin-bottom: 18px; /* Increased from 14px */
 }
 
-h2 {
-    font-size: 2rem; /* Increase from 1.8rem */
-    font-weight: 700;
-    color: #1a1a1a;
-    margin-bottom: 4px; /* Tighter spacing to job title */
-}
-
-h3 {
-    font-size: 1.4rem;
-    font-weight: 600;
-    margin-bottom: 12px;
-    color: #1a1a1a;
-    line-height: 1.3;
-}
-
 .job-header {
     margin-bottom: 24px;
 }
 
 /* Job titles - smaller, more subtle */
 .job-title {
-    font-size: 1rem; /* Smaller than current */
+    font-size: 1.1rem; /* Smaller than current */
     font-weight: 500; /* Less heavy */
     color: #666; /* More subtle color */
     margin-bottom: 20px;
@@ -457,7 +471,7 @@ h3 {
 .job-description {
     font-size: 1.05rem;
     line-height: 1.7;
-    color: #444;
+    color: #333; /* Changed from #444 to darker */
     margin-bottom: 32px;
 }
 
@@ -471,7 +485,7 @@ h3 {
     margin-bottom: 14px;
     font-size: 1rem;
     line-height: 1.6;
-    color: #444;
+    color: #333;
     padding-left: 16px;
     position: relative;
 }
@@ -556,7 +570,7 @@ h3 {
 
 .past-role p {
     font-size: 0.95rem;
-    color: #666;
+    color: #555;
     line-height: 1.6;
 }
 
@@ -564,7 +578,7 @@ h3 {
 .contact-info {
     font-size: 1.1rem;
     line-height: 1.7;
-    color: #444;
+    color: #333;
     margin-bottom: 32px;
 }
 
@@ -619,6 +633,32 @@ h3 {
     background: #333;
 }
 
+.contact-btn {
+    text-decoration: underline;
+    text-decoration-color: #e5e7eb;
+    text-underline-offset: 4px;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 32px;
+    margin-top: 40px;
+}
+
+.skill-category h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 8px;
+}
+
+.skill-category p {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.6;
+}
+
 /* Footer */
 footer {
     padding: 60px 0;
@@ -629,8 +669,28 @@ footer {
     margin-top: 80px;
 }
 
+/* Keep base size (16px) */
+.achievements li,
+.nav-link,
+.top-nav-link,
+.contact-btn {
+    font-size: 1rem; /* 16px */
+}
+
+/* Consolidate to body-small (14px) */
+.job-title,
+.job-duration,
+.past-role .role-meta,
+.past-role p {
+    font-size: 0.875rem; /* 14px */
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
+    body {
+        font-size: 17px; /* Up from 16px for better mobile reading */
+    }
+
     header {
         padding: 40px 0 40px; /* Reduced from 80px 0 60px */
     }
@@ -675,8 +735,20 @@ footer {
     }
     
     .section-banner {
-        height: 80px;
-        margin: 60px 0 30px 0;
+        height: 60px;
+        margin: 40px 0 20px 0;
+    }
+
+    section {
+        margin-bottom: 60px; /* Reduced from 80px */
+    }
+
+    .achievements li {
+        margin-bottom: 12px; /* Slightly tighter */
+    }
+
+    .job-header {
+        margin-bottom: 20px; /* Reduced from 24px */
     }
     
     .construction-icon {
