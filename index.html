@@ -23,29 +23,49 @@
 <body>
     <!-- Top Navigation -->
     <nav class="top-nav">
-        <div class="container">
-            <a href="index.html" class="logo">Fernando Caldeira</a>
-            
-            <!-- Desktop Navigation -->
-            <ul class="top-nav-links">
-                <li><a href="index.html" class="top-nav-link active">My Work</a></li>
-                <li><a href="about.html" class="top-nav-link">About Me</a></li>
-            </ul>
-            
-            <!-- Mobile Menu Button -->
-            <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">
-                ☰
-            </button>
-            
-            <!-- Mobile Menu -->
-            <div class="mobile-menu" id="mobileMenu">
-                <ul class="mobile-nav-links">
-                    <li><a href="index.html" class="mobile-nav-link active">My Work</a></li>
-                    <li><a href="about.html" class="mobile-nav-link">About Me</a></li>
-                </ul>
-            </div>
+    <div class="container">
+        <a href="index.html" class="logo">Fernando Caldeira</a>
+        
+        <ul class="top-nav-links">
+            <li><a href="index.html" class="top-nav-link active">My Work</a></li>
+            <li><a href="about.html" class="top-nav-link">About Me</a></li>
+        </ul>
+        
+        <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">
+            ☰
+        </button>
+    </div>
+    
+    <div class="mobile-menu-overlay" id="mobileMenuOverlay">
+    <div class="mobile-menu-content">
+        <div class="mobile-menu-logo">Fernando Caldeira</div>
+        
+        <button class="mobile-menu-close" onclick="toggleMobileMenu()">
+            ✕
+        </button>
+        
+        <ul class="mobile-nav-links">
+            <li><a href="index.html" class="mobile-nav-link">My Work</a></li>
+            <li><a href="about.html" class="mobile-nav-link active">About Me</a></li>
+        </ul>
+        
+        <div class="mobile-social-links">
+            <!-- <a href="mailto:fernandonunescaldeira@gmail.com" class="mobile-social-link">
+                <svg class="social-icon" viewBox="0 0 24 24">
+                    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.89 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8 5V6l8 5 8-5v2z"/>
+                </svg>
+                Email
+            </a>-->
+            <a href="https://www.linkedin.com/in/fernandonunescaldeira/" class="mobile-social-link">
+                <svg class="social-icon" viewBox="0 0 24 24">
+                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                </svg>
+                LinkedIn
+            </a>
         </div>
-    </nav>
+    </div>
+</div>
+</nav>
 
     <div class="container">
         <header>
@@ -63,24 +83,14 @@
         </header>
 
         <main>
-            <nav>
-                <ul>
-                    <li><a href="#experience" class="nav-link active">Experience</a></li>
-                    <li><a href="#past-roles" class="nav-link">Past Roles</a></li>
-                    <li><a href="#contact" class="nav-link">Contact</a></li>
-                </ul>
-            </nav>
-        </main>
-      
-
-        <section id="experience">
+            <section id="experience">
             <!-- Tinder Banner ABOVE Tinder Section -->
             <div class="section-banner banner-tinder"></div>
             
             <!-- Tinder Section -->
             <div class="job-header">
                 <h2>Tinder</h2>
-                <p class="job-title">Product Manager — Growth, Chat, Profile, Select, Innovation</p>
+                <p class="job-title">Product Manager — Innovation Lab, Tinder SELECT, Profile, Chat & Connections</p>
                 <p class="job-duration">2022 – Present</p>
             </div>
             
@@ -88,31 +98,14 @@
                 Tinder is one of the largest social products in the world, and I've contributed across multiple core areas:
             </p>
 
-            <div class="achievements">
-                <div class="achievement-item">
-                    <div class="achievement-title">Innovation Lab (Double Date)</div>
-                    <div class="achievement-description">Leading initiatives to reverse Gen Z's declining engagement with dating apps. Focused on bold bets that drive long-term product use, not just short-term acquisition.</div>
-                </div>
-                
-                <div class="achievement-item">
-                    <div class="achievement-title">Tinder SELECT</div>
-                    <div class="achievement-description">Drove initiatives to improve value for super-users, strengthening one of our most important revenue streams.</div>
-                </div>
-                
-                <div class="achievement-item">
-                    <div class="achievement-title">Profile</div>
-                    <div class="achievement-description">Launched product changes that set all-time records in photo uploads, improving profile quality and discovery.</div>
-                </div>
-                
-                <div class="achievement-item">
-                    <div class="achievement-title">Chat & Connections</div>
-                    <div class="achievement-description">Increased conversation depth and active days among women members, a key retention metric.</div>
-                </div>
-            </div>
+            <ul class="achievements">
+                <li><strong>Gen Z Engagement (Double Date):</strong> Spearheaded initiatives tackling declining usage trends.</li>
+                <li><strong>Super-User Value (Select):</strong> Raised retention and premium revenue through targeted enhancements.</li>
+                <li><strong>Profile Optimization:</strong> Launched features leading to record photo uploads and improved discovery.</li>
+                <li><strong>Retention Uplift:</strong> Boosted conversation depth & active days among female users.</li>
+                <li><strong>Trusted Execution:</strong> Maintained role through layoffs—delivering confidence and consistent results.</li>
+            </ul>
 
-            <p class="job-description">
-                I've been able to stay and grow through multiple layoffs and restructures as a contractor, which reflects the trust I've built with leadership and my ability to deliver consistently.
-            </p>
 
             <!-- Ablo Banner ABOVE Ablo Section -->
             <div class="section-banner banner-ablo"></div>
@@ -128,27 +121,11 @@
                 Ablo connected people worldwide with real-time chat, video, and live translations. It was named Google App of the Year in its first year and grew to 50M+ users in under two years.
             </p>
 
-            <div class="achievements">
-                <div class="achievement-item">
-                    <div class="achievement-title">Revenue Growth</div>
-                    <div class="achievement-description">Increased revenue by 300% in a few quarters by leading monetization initiatives.</div>
-                </div>
-                
-                <div class="achievement-item">
-                    <div class="achievement-title">Subscriptions & Gamification</div>
-                    <div class="achievement-description">Designed and launched new subscription tiers, applied gamification mechanics, and helped build a new streaming vertical.</div>
-                </div>
-                
-                <div class="achievement-item">
-                    <div class="achievement-title">Focus on Value</div>
-                    <div class="achievement-description">Identified features that didn't deliver business or user value and successfully pushed for their discontinuation, improving retention and focus.</div>
-                </div>
-                
-                <div class="achievement-item">
-                    <div class="achievement-title">Execution at Scale</div>
-                    <div class="achievement-description">Produced 150+ product proposals, working in a fast-paced environment with senior product leaders and engineers.</div>
-                </div>
-            </div>
+            <ul class="achievements">
+                <li><strong>Rapid Revenue Increase:</strong> +300% growth in a few quarters via new monetization strategies.</li>
+                <li><strong>New Features:</strong> Implemented subscriptions, gamification, and a streaming vertical.</li>
+                <li><strong>Product Focus:</strong> Proposed 150+ improvements and phased out low-value features to sharpen retention.</li>
+            </ul>
 
             <p class="job-description">
                 This role gave me my first managerial responsibilities and shaped how I approach problem framing, solution design, and data analysis/impact measurement.
@@ -168,27 +145,11 @@
                 Linkuid is a staging-environment automation platform built to speed up software development by providing instantly available, isolated environments.
             </p>
 
-            <div class="achievements">
-                <div class="achievement-item">
-                    <div class="achievement-title">Concept to Launch</div>
-                    <div class="achievement-description">Co-founded the project, defined the product vision, and led design and user experience.</div>
-                </div>
-                
-                <div class="achievement-item">
-                    <div class="achievement-title">Developer Efficiency</div>
-                    <div class="achievement-description">Enabled teams to spin up fresh environments in seconds, reducing friction in QA and product validation.</div>
-                </div>
-                
-                <div class="achievement-item">
-                    <div class="achievement-title">Scalable Architecture</div>
-                    <div class="achievement-description">Designed a container-based setup using Docker/Docker Compose, allowing new teams to onboard in under a day.</div>
-                </div>
-                
-                <div class="achievement-item">
-                    <div class="achievement-title">GitHub Integration</div>
-                    <div class="achievement-description">Built workflows that trigger environments directly from repositories, streamlining CI/CD pipelines.</div>
-                </div>
-            </div>
+            <ul class="achievements">
+              <li><strong>Staging Automation:</strong> Built staging-environment automation tool for dev teams.</li>
+              <li><strong>Infrastructure Setup:</strong> Enabled instant environment setup via Docker infrastructure.</li>
+              <li><strong>GitHub Integration:</strong> Integrated with GitHub for seamless CI/CD workflows.</li>
+            </ul>
 
             <p class="job-description">
                 Through Linkuid, I gained hands-on experience with infrastructure products, deepened my understanding of developer workflows, and sharpened my ability to bring a product from zero to market.
@@ -200,32 +161,30 @@
 
         <section id="past-roles">
             <h2>Past Roles</h2>
-            <div class="past-roles">
-                <div class="past-role">
-                    <div class="role-title">UX/UI Designer — Freelancer</div>
-                    <div class="role-company">Brussels, Belgium | 2020</div>
-                    <div class="role-description">Designed and prototyped digital interfaces for freelance clients. Focused on usability and creating seamless user experiences.</div>
-                </div>
-                
-                <div class="past-role">
-                    <div class="role-title">User Interface Designer — Pacsis</div>
-                    <div class="role-company">Lisbon, Portugal | 2019 – 2020</div>
-                    <div class="role-description">Developed user interface designs for software solutions. Collaborated with product and development teams to ensure design consistency.</div>
-                </div>
-                
-                <div class="past-role">
-                    <div class="role-title">Graphic Designer — Information Planet</div>
-                    <div class="role-company">Lisbon, Portugal | 2019</div>
-                    <div class="role-description">Created marketing and branding materials for international education services. Supported communication campaigns with visual assets.</div>
-                </div>
-                
-                <div class="past-role">
-                    <div class="role-title">Generalist Designer — Physis Studio</div>
-                    <div class="role-company">Braga, Portugal | 2017 – 2019</div>
-                    <div class="role-description">Worked across graphic, digital, and branding design projects. Contributed to a variety of client portfolios with creative solutions.</div>
-                </div>
+            <div class="past-role">
+                <h4>UX/UI Designer</h4>
+                <div class="role-meta">Freelancer • Brussels, Belgium • 2020</div>
+                <p>Designed digital interfaces focused on usability and user experience.</p>
             </div>
-        </section>
+            
+            <div class="past-role">
+                <h4>User Interface Designer</h4>
+                <div class="role-meta">Pacsis • Lisbon, Portugal • 2019–2020</div>
+                <p>Developed interface designs for software solutions and ensured design consistency.</p>
+            </div>
+            
+            <div class="past-role">
+                <h4>Graphic Designer</h4>
+                <div class="role-meta">Information Planet • Lisbon, Portugal • 2019</div>
+                <p>Created marketing materials for international education services.</p>
+            </div>
+            
+            <div class="past-role">
+                <h4>Generalist Designer</h4>
+                <div class="role-meta">Physis Studio • Braga, Portugal • 2017–2019</div>
+                <p>Worked across graphic, digital, and branding design projects.</p>
+            </div>
+         </section>
 
         <section id="contact">
             <h2>Get In Touch</h2>
@@ -238,6 +197,11 @@
             </div>
         </section>
     </div>
+
+        </main>
+        
+
+        
 
     <footer>
         <div class="container">
