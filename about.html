@@ -8,18 +8,27 @@
     <meta name="keywords" content="Fernando Caldeira, Product Manager, About, Personal, Portugal, Design Background, Product Development">
     <meta name="author" content="Fernando Caldeira">
     <link rel="stylesheet" href="assets/css/style.css">
-    <script src="assets/js/main.js"></script>
-     <!-- ADD THE SCRIPT HERE -->
+    
+    <!-- OpenGraph / Facebook -->
+    <meta property="og:title" content="About Fernando Caldeira - Product Manager">
+    <meta property="og:description" content="Learn more about Fernando Caldeira - Product Manager with design background, passionate about solving problems at the intersection of design, technology, and business.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://fernandocaldeira.github.io/personal-website-2025/about.html">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="About Fernando Caldeira - Product Manager">
+    <meta name="twitter:description" content="Learn more about Fernando Caldeira - Product Manager with design background, passionate about solving problems at the intersection of design, technology, and business.">
+    
+    <!-- Structured Data -->
     <script type="application/ld+json">
-        {
-        "@context": "https://schema.org",
-        "@type": "Person",
-        "name": "Fernando Caldeira",
-        "jobTitle": "Product Manager",
-        "worksFor": "Tinder",
-        "url": "https://fernandocaldeira.info/",
-        "sameAs": ["https://www.linkedin.com/in/fernandonunescaldeira/"]
-        }
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Fernando Caldeira",
+      "jobTitle": "Product Manager",
+      "worksFor": "Tinder",
+      "url": "https://fernandocaldeira.github.io/personal-website-2025/",
+      "sameAs": ["https://www.linkedin.com/in/fernandonunescaldeira/"]
+    }
     </script>
 </head>
 <body>
@@ -28,54 +37,151 @@
         <div class="container">
             <a href="index.html" class="logo">Fernando Caldeira</a>
             
-            <!-- Desktop Navigation -->
             <ul class="top-nav-links">
                 <li><a href="index.html" class="top-nav-link">My Work</a></li>
                 <li><a href="about.html" class="top-nav-link active">About Me</a></li>
             </ul>
             
-            <!-- Mobile Menu Button -->
             <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">
                 ☰
             </button>
-            
-            <!-- Mobile Menu -->
-            <div class="mobile-menu-overlay" id="mobileMenuOverlay">
-    <div class="mobile-menu-content">
-        <div class="mobile-menu-logo">Fernando Caldeira</div>
-        
-        <button class="mobile-menu-close" onclick="toggleMobileMenu()">
-            ✕
-        </button>
-        
-        <ul class="mobile-nav-links">
-            <li><a href="index.html" class="mobile-nav-link">My Work</a></li>
-            <li><a href="about.html" class="mobile-nav-link active">About Me</a></li>
-        </ul>
-        
-        <div class="mobile-social-links">
-            <a href="https://www.linkedin.com/in/fernandonunescaldeira/" target="_blank" class="mobile-social-link">
-                <svg class="social-icon" viewBox="0 0 24 24">
-                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-                </svg>
-                LinkedIn
-            </a>
         </div>
-    </div>
-</div>
+        
+        <div class="mobile-menu-overlay" id="mobileMenuOverlay">
+            <div class="mobile-menu-content">
+                <div class="mobile-menu-logo">Fernando Caldeira</div>
+                
+                <button class="mobile-menu-close" onclick="toggleMobileMenu()">
+                    ✕
+                </button>
+                
+                <ul class="mobile-nav-links">
+                    <li><a href="index.html" class="mobile-nav-link">My Work</a></li>
+                    <li><a href="about.html" class="mobile-nav-link active">About Me</a></li>
+                </ul>
+                
+                <div class="mobile-social-links">
+                    <a href="mailto:fernandonunescaldeira@gmail.com" class="mobile-social-link" target="_blank">
+                        <svg class="social-icon" viewBox="0 0 24 24">
+                            <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.89 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8 5V6l8 5 8-5v2z"/>
+                        </svg>
+                        Email
+                    </a>
+                    <a href="https://www.linkedin.com/in/fernandonunescaldeira/" class="mobile-social-link" target="_blank">
+                        <svg class="social-icon" viewBox="0 0 24 24">
+                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                        </svg>
+                        LinkedIn
+                    </a>
+                </div>
+            </div>
         </div>
     </nav>
 
     <div class="container">
-        <div class="under-construction">
-            <div class="construction-icon">🚧</div>
-            <h1>Under Construction</h1>
-            <p class="subtitle">This page is coming soon!</p>
-            <p class="description">
-                I'm currently working on a more personal page where you can learn about my journey, philosophy, and what drives me as a product manager. Check back soon for insights beyond the resume.
+        <header>
+            <h1>About Me</h1>
+            <p class="subtitle">A bit more about me as a person</p>
+             <!-- Photo Placeholder -->
+            <div class="photo-container">
+                <div class="photo-placeholder"></div>
+            </div>
+            <p class="intro">
+                I grew up in a small village about an hour from Lisbon. My mind never stayed still — I tried it all: competitive swimming, basketball, skateboarding, gaming, and drawing. That curiosity and creativity eventually led me to visual arts, which became the foundation of my career in design and product.
             </p>
-            <a href="index.html" class="back-link">← Back to My Work</a>
-        </div>
+            <p class="intro">
+                I had a happy childhood, and later spent several years abroad in Belgium and the Netherlands. That time away made me deeply value Portugal — not only as a home but as a place where I can give back, invest in my community, and share what I've learned along the way.
+            </p>
+            <p class="intro">
+                Today, I live with my partner of five years. We recently bought our first home, and we're having a lot of fun (and work) designing every detail together. I'm happiest when I'm cooking for friends, traveling, or just enjoying simple moments.
+            </p>
+        </header>
+
+        <main>
+            <section id="workstyle">
+                <h2>Workstyle</h2>
+                
+                <!-- Tagline -->
+                <div class="tagline">Work hard. Be kind.</div>
+                
+                <p class="job-description">
+                    I'm deeply passionate about product, design, and psychology. For me, product management is about constantly questioning assumptions, looking at problems from different angles, and finding simple, effective solutions.
+                </p>
+
+                <!-- Philosophy Points -->
+                <div class="philosophy-grid">
+                    <div class="philosophy-item">
+                        <h3>Get shit done</h3>
+                        <p>I'm pragmatic and focused on execution. I believe momentum matters, and I push projects forward even when things are ambiguous.</p>
+                    </div>
+                    <div class="philosophy-item">
+                        <h3>Work hard, be kind</h3>
+                        <p>I hold myself to high standards, but I care deeply about the people I work with. The best results come when teams feel respected, challenged, and supported.</p>
+                    </div>
+                </div>
+
+                <p class="job-description">
+                    I love working with <strong>egoless, collaborative teams</strong> — people who care more about the work than about being right. My style is to challenge my team to do their best work, but also to make sure we enjoy the process together.
+                </p>
+            </section>
+
+            <section id="interests">
+                <h2>Interests</h2>
+                
+                <p class="job-description">
+                    Outside of work, my interests include:
+                </p>
+
+                <!-- Simple list without bullets -->
+                <ul class="achievements">
+                    <li><strong>Documentary Series:</strong> Watching thought-provoking documentaries and series.</li>
+                    <li><strong>Fitness & Sports:</strong> Going to the gym and playing padel regularly.</li>
+                    <li><strong>Visual Arts:</strong> Drawing people and exploring different art forms.</li>
+                    <li><strong>Learning:</strong> Reading technical books and picking up new skills.</li>
+                    <li><strong>Cooking:</strong> Preparing meals for friends — my favorite way to relax.</li>
+                    <li><strong>Gaming:</strong> Occasional gaming sessions to unwind.</li>
+                    <li><strong>Gardening:</strong> Starting to learn about plants and growing things.</li>
+                </ul>
+
+                <p class="job-description">
+                    I also want to travel more, practice writing, learn Dutch, and spend more time in nature.
+                </p>
+            </section>
+
+            <section id="curiosities">
+                <h2>Curiosities</h2>
+
+                <div class="curiosities-grid">
+                    <div class="curiosity-item">
+                        <span class="curiosity-number">3</span>
+                        <p>Countries I've lived and worked in: Portugal, Belgium, and the Netherlands.</p>
+                    </div>
+                    <div class="curiosity-item">
+                        <span class="curiosity-icon">🚀</span>
+                        <p>Building a product from scratch with a friend.</p>
+                    </div>
+                    <div class="curiosity-item">
+                        <span class="curiosity-number">30</span>
+                        <p>Turning 30 shifted my focus: better health, smarter investing, and more balance.</p>
+                    </div>
+                    <div class="curiosity-item">
+                        <span class="curiosity-icon">📚</span>
+                        <p>Always seeking new books to read — send me your recommendations!</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact">
+                <h2>Get In Touch</h2>
+                <p class="contact-info">
+                    Want to chat about product, design, or just life in general? I'd love to hear from you.
+                </p>
+                <div class="contact-links">
+                    <a href="mailto:fernandonunescaldeira@gmail.com" class="contact-btn" target="_blank">Email</a>
+                    <a href="https://www.linkedin.com/in/fernandonunescaldeira/" target="_blank" class="contact-btn">LinkedIn</a>
+                </div>
+            </section>
+        </main>
     </div>
 
     <footer>
@@ -83,5 +189,7 @@
             <p>&copy; 2024 Fernando Caldeira. Ship fast with care.</p>
         </div>
     </footer>
+
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
