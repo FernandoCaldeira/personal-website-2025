@@ -3,13 +3,22 @@
   <url>
     <loc>https://fernandocaldeira.com/</loc>
     <lastmod>2025-01-31</lastmod>
+<<<<<<< HEAD
     <changefreq>monthly</changefreq>
+=======
+>>>>>>> 4e70db704de6a1ab3c148e4a67c6e03f69902748
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://fernandocaldeira.com/about.html</loc>
     <lastmod>2025-01-31</lastmod>
+<<<<<<< HEAD
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 </urlset>
+=======
+    <priority>0.8</priority>
+  </url>
+</urlset>
+>>>>>>> 4e70db704de6a1ab3c148e4a67c6e03f69902748
