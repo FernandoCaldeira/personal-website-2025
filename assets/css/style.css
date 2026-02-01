@@ -245,7 +245,7 @@ h1 {
     font-weight: 700;
     margin-bottom: 16px;
     color: #1a1a1a;
-    line-height: 1.3;
+    line-height: 1.25;
 }
 
 .hero-section h1 {
@@ -849,7 +849,6 @@ footer {
 }
 
 /* Parágrafos - todos iguais */
-.intro-text,
 .job-description,
 p {
     font-size: 1.125rem;
