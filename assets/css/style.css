@@ -17,7 +17,7 @@ body {
 }
 
 .container {
-    max-width: 820px;
+    max-width: 800px;
     margin: 0 auto;
     padding: 0 24px;
 }
@@ -234,14 +234,14 @@ body.mobile-menu-open .mobile-menu-toggle {
 
 /* Header - Main Page */
 header {
-    padding: 80px 0 30px;
+    padding: 80px 0 80px;
     text-align: left;
     /* border-bottom: 1px solid #f0f0f0;
     margin-bottom: 60px; */
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 3.2rem;
     font-weight: 700;
     margin-bottom: 16px;
     color: #1a1a1a;
@@ -846,6 +846,56 @@ footer {
     color: #555;
     line-height: 1.6;
     margin: 0;
+}
+
+/* Parágrafos - todos iguais */
+.intro-text,
+.job-description,
+p {
+    font-size: 1.125rem;
+    line-height: 1.7;
+    color: #333;
+    font-weight: 400;
+}
+
+/* Títulos de seção (Tinder, Ablo) */
+h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 8px;
+    letter-spacing: -0.01em;
+}
+
+/* Subtítulo do cargo - SEM itálico */
+.subtitle,
+.job-title {
+    font-size: 1rem;
+    color: #666;
+    font-weight: 400;
+    font-style: normal; /* Remove itálico */
+    margin-bottom: 4px;
+}
+
+/* Data */
+.job-duration {
+    font-size: 0.95rem;
+    color: #999;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+/* Bullets - Medium em vez de Bold */
+.achievements li {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #555;
+    font-weight: 400;
+}
+
+.achievements li strong {
+    font-weight: 500; /* Medium - mais elegante */
+    color: #1a1a1a;
 }
 
 /* Responsive Design */
