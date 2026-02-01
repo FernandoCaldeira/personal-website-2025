@@ -248,6 +248,10 @@ h1 {
     line-height: 1.2;
 }
 
+.hero-section h1 {
+    margin-bottom: 4rem; /* Reduced from 2.5rem */
+}
+
 h2 {
     font-size: 2rem; /* Increase from 1.8rem */
     font-weight: 700;
